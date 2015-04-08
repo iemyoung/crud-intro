@@ -1,0 +1,22 @@
+body {
+	background: url();
+	background-position: top;
+	background-size: 1000px 700px;
+}
+
+h1 { 
+	font-family: Impact;
+	color: black;
+}
+h2, h3 {
+	text-align: left;
+	color: black;
+	font-family: Sans Serif;
+	display: inline-block;
+}
+
+.info {
+	
+	color: ;
+}
+
