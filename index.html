@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/application.js"></script>
 
@@ -15,6 +8,36 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-
+    <div class="container col-xs-12">
+    <h1>crud test</h1>
+    <form id="msg-form">
+      <br>
+      <input type="text" class="title form-control" placeholder="title">
+      <br>
+      <input type="text" class="msg form-control" placeholder="your message">
+      <br>
+      <button class="btn btn-default" id="new-post">Post!</button>
+    </form>
+    <br>
+    <div>
+      <button class="btn btn-default" id="all-post">Refresh</button>    
+      <table id="all-post" class="table table-bordered">
+        <thead class="bold">
+          <th>ID</th>
+          <th>Title</th>
+          <th>Message</th>
+          <th>Owner</th>
+        </thead>
+        <tbody class="responseRow">
+          <tr>
+            <td class="id"></td>
+            <td class="title"></td>
+            <td class="message"></td>
+            <td class="owner"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
   </body>
 </html>
